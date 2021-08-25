@@ -1,1 +1,0 @@
-"gource -1280x720 -i 0 --date-format \"%Y-%m-%d\" -r 25 --highlight-users --seconds-per-day 0.4  --title \"Thank you to everyone who has contributed to taro-qn-component !\" -o - | ffmpeg -y -r 25 -f image2pipe  -vcodec ppm -i - -i friendships.mp3 -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 contribution.mp4"
